@@ -355,6 +355,23 @@ body {
   width: 301px;
   height: 35px;
 }
+.alert {
+  position: absolute;
+  top: 100px;
+  left: 230px;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-size: 20px;
+  /* font-weight: 600px; */
+  color:#000000;
+  background-color: rgb(48, 246, 41);
+  padding: 10px 0px 0px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 235px;
+  height: 35px;
+  display: none;
+}
 .icon2 {
   position: relative;
   width: 28px;
