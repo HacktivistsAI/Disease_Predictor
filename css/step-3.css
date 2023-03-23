@@ -55,6 +55,7 @@ body {
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
   width: 137.81px;
   height: 57.3px;
+  display: none;
 }
 .sign-in9 {
   text-decoration: none;
@@ -98,8 +99,9 @@ body {
   background-color: #d9d9d9;
   top: 10.39px;
   left: 17.77px;
+  padding-left: 20px;
   border-radius: 7px;
-  width: 217px;
+  width: 195px;
   height: 37px;
 }
 .btn5,
