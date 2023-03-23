@@ -982,11 +982,18 @@ body {
   display: inline;
 }
 #result-box{
-  display: inline;
+  display: none;
   position:absolute;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
   font-size: 14pt;
   color: blue;
+}
+.sign-out-btn-style{
+  padding: 15px;
+  border-radius: 15px;
+  width: 150px;
+  font-size: 20px;
+  margin-left: 150px;
 }

@@ -175,6 +175,7 @@
       </div>
       <div id="result-box">
         <h3 id="result"></h3>
+        <button id="sign-out-btn" class="sign-out-btn-style">Logout</button>
       </div>
     </div>    
   </body>
@@ -189,7 +190,7 @@
     <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
-      import { getAuth, GoogleAuthProvider, signInWithPopup,signInWithEmailAndPassword, createUserWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
+      import { getAuth, GoogleAuthProvider, signInWithPopup,signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut} from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
       // TODO: Add SDKs for Firebase products that you want to use
       // https://firebase.google.com/docs/web/setup#available-libraries
     
@@ -237,6 +238,18 @@
         const errorMessage = error.message;
         document.getElementById('result-box').style.display="inline";
         document.getElementById('sign-up').style.display="none";
+        document.getElementById('result').innerHTML="Sorry ! <br>"+errorMessage;
+      });
+    });
+    //-------------------------------
+    document.getElementById('sign-out-btn').addEventListener('click',function(){
+      signOut(auth).then(()=>{
+        document.getElementById('result-box').style.display="none";
+        document.getElementById('sign-up').style.display="inline";
+        //Sign out successful.
+        document.getElementById('result').innerHTML="Welcome <br>"+signupEmail+" was Signup Successfully";
+      }).catch((error)=>{
+        //An error occured.
         document.getElementById('result').innerHTML="Sorry ! <br>"+errorMessage;
       });
     });
