@@ -416,19 +416,24 @@ body {
 }
 .sign-in-with {
   position: absolute;
-  top: 15px;
-  left: 81.45px;
+  top: 20px;
+  left: 80px;
   display: inline-block;
-  width: 201px;
+  width: 185px;
   height: 26px;
+  font-size: 16px;
 }
 .group-child75,
 .rectangle-parent22 {
   position: absolute;
   top: 1.02px;
-  left: 0;
+  left: 85px;
   width: 308.5px;
   height: 56.04px;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 .group-child75 {
   text-decoration: none;
@@ -451,6 +456,11 @@ body {
   left: 329.2px;
   width: 62.12px;
   height: 56.04px;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: none;
 }
 .apple-icon {
   height: 50.91%;
@@ -469,6 +479,11 @@ body {
   left: 404.78px;
   width: 62.12px;
   height: 56.04px;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: none;
 }
 .group-parent8 {
   top: 645.98px;
