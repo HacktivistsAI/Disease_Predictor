@@ -986,9 +986,13 @@ body {
   position:absolute;
   top:50%;
   left:50%;
+  width : 510px;
+  background-color: rgba(255, 255, 255, 0.934);
+  padding: 0px 20px 15px 20px;
+  border-radius: 20px;
   transform: translate(-50%,-50%);
   font-size: 14pt;
-  color: green;
+  color: rgb(91, 234, 91);
 }
 .sign-out-btn-style{
   padding: 15px;
