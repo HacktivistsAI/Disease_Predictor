@@ -988,7 +988,7 @@ body {
   left:50%;
   transform: translate(-50%,-50%);
   font-size: 14pt;
-  color: blue;
+  color: green;
 }
 .sign-out-btn-style{
   padding: 15px;
