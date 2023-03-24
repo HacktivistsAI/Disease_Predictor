@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBJmcrSJCsXK6rpXxdruMkY_9B4DTEvfNM",
-    authDomain: "contactmainform.firebaseapp.com",
-    databaseURL: "https://contactmainform-default-rtdb.firebaseio.com",
-    projectId: "contactmainform",
-    storageBucket: "contactmainform.appspot.com",
-    messagingSenderId: "829783912849",
-    appId: "1:829783912849:web:3f61e4e6a1c956f26aaa30"
+    apiKey: "AIzaSyC6tnXGcWWIHBAs9yU6Vq3V1zpdxFaz3bo",
+    authDomain: "diseasepredictor1.firebaseapp.com",
+    databaseURL: "https://diseasepredictor1-default-rtdb.firebaseio.com",
+    projectId: "diseasepredictor1",
+    storageBucket: "diseasepredictor1.appspot.com",
+    messagingSenderId: "430314100907",
+    appId: "1:430314100907:web:06a1608cf0965fbf197fee"
   };
 firebase.initializeApp(firebaseConfig);
 
