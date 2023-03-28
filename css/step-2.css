@@ -232,6 +232,7 @@ body {
   align-self: stretch;
   position: relative;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .title3 {
   align-self: stretch;
@@ -535,10 +536,10 @@ body {
   background-color: #fff;
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
   border: 2px solid #dbdbdb;
-  width: 943px;
+  width: 90%;
   overflow: hidden;
   flex-direction: column;
-  padding: 60px;
+  padding: 60px 60px 40px 60px ;
   justify-content: flex-start;
   gap: 30px;
 }
@@ -550,4 +551,52 @@ body {
   font-size: 32px;
   color: #000;
   font-family: Inter;
+}
+/* 
+form{
+  display:grid;
+  max-width: 100px;
+} */
+
+.hiddenCB label {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 4px 6px;
+  line-height: 175%;
+  outline-style: none;
+  transition: all .6s;
+}
+
+.hiddenCB div {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hiddenCB input[type="checkbox"],
+.hiddenCB input[type="radio"] {
+  display: none;
+  
+}
+
+.hiddenCB label {
+  cursor: pointer;
+  background-color: #d4ebf2;
+  border-radius: 10px;
+}
+
+.hiddenCB input[type="checkbox"]+label:hover{
+  background: rgba(36, 223, 230, 0.8);
+  border-radius: 10px;
+}
+
+.hiddenCB input[type="checkbox"]:checked+label {
+  background: rgba(245, 167, 95, 0.8);
+  border-radius: 10px;
+}
+
+.hiddenCB input[type="checkbox"]:checked+label:hover{
+  background: rgba(0, 128, 128, 0, .7);
+  border-radius: 10px;
 }
