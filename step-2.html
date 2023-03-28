@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./css/step-2.css" />
-
+    <link rel="stylesheet" href="../static/css/step-2.css" />
     <link 
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap"
@@ -25,7 +24,7 @@
   <body>
     <div class="step-2">
       <div class="part15">
-        <img class="bg-icon10" alt="" src="./images/bg@2x.png" />
+        <img class="bg-icon10" alt="" src="../static/images/bg@2x.png" />
         <nav class="nav-bar5">
           <!-- <img class="bg-icon11" alt="" src="./images/bg11.svg" /> -->
           <button
@@ -43,14 +42,14 @@
             <input class="input9" type="text" placeholder="Search here.." /><img
               class="icon13"
               alt=""
-              src="./images/icon.svg"
+              src="../static/images/icon.svg"
             /><button class="btn6" autofocus></button>
           </div>
           <button class="nortification-icon5" autofocus>
-            <img class="vector-icon8" alt="" src="./images/vector@2x.png" /><img
+            <img class="vector-icon8" alt="" src="../static/images/vector@2x.png" /><img
               class="nortification-icon-child3"
               alt=""
-              src="./images/ellipse-1@2x.png"
+              src="../static/images/ellipse-1@2x.png"
             /></button
           ><a class="logo5" href="./index.html"
             ><span class="disease-predictor10"
@@ -58,131 +57,173 @@
                 ><span class="disease-predictor11">Disease Predictor</span
                 ><span class="span13">+</span></span
               ></span
-            ><img class="icon14" alt="icon" src="./images/icon1@2x.png"
+            ><img class="icon14" alt="icon" src="../static/images/icon1@2x.png"
           /></a>
         </nav>
       </div>
       <div class="symptoms">
         <div class="title3">
           <div class="select-symptoms">Select Symptoms :</div>
+          <form class="hiddenCB">
+            <div>
+              <input type="checkbox" name="choice1" id="cb1" /><label for="cb1">Itching</label>
+              <input type="checkbox" name="choice2" id="cb2" /><label for="cb2">Skin_Rash</label>
+              <input type="checkbox" name="choice3" id="cb3" /><label for="cb3">Nodal_Skin_Eruptions</label>
+              <input type="checkbox" name="choice4" id="cb4" /><label for="cb4">Continuous_Sneezing</label>
+              <input type="checkbox" name="choice5" id="cb5" /><label for="cb5">Shivering</label>
+              <input type="checkbox" name="choice6" id="cb6" /><label for="cb6">Chills</label>
+              <input type="checkbox" name="choice7" id="cb7" /><label for="cb7">Joint Pain</label>
+              <input type="checkbox" name="choice8" id="cb8" /><label for="cb8">Stomach Pain</label>
+              <input type="checkbox" name="choice9" id="cb9" /><label for="cb9">Acidity</label>
+              <input type="checkbox" name="choice10" id="cb10" /><label for="cb10">Ulcers On Tongue</label>
+              <input type="checkbox" name="choice11" id="cb11" /><label for="cb11">Vomiting</label>
+              <input type="checkbox" name="choice12" id="cb12" /><label for="cb12">Burning Micturition</label>
+              <input type="checkbox" name="choice13" id="cb13" /><label for="cb13">Muscle Wasting</label>
+              <input type="checkbox" name="choice14" id="cb14" /><label for="cb14">Spotting Urination</label>
+              <input type="checkbox" name="choice15" id="cb15" /><label for="cb15">Fatigue</label>
+              <input type="checkbox" name="choice16" id="cb16" /><label for="cb16">Weight Gain</label>
+              <input type="checkbox" name="choice17" id="cb17" /><label for="cb17">Anxiety</label>
+              <input type="checkbox" name="choice18" id="cb18" /><label for="cb18">Cold_Hands_And_Feets</label>
+              <input type="checkbox" name="choice19" id="cb19" /><label for="cb19">Mood Swings</label>
+              <input type="checkbox" name="choice20" id="cb20" /><label for="cb20">Weight Loss</label>
+              <input type="checkbox" name="choice21" id="cb21" /><label for="cb21">Restlessness</label>
+              <input type="checkbox" name="choice22" id="cb22" /><label for="cb22">Lethargy</label>
+              <input type="checkbox" name="choice23" id="cb23" /><label for="cb23">Patches In Throat</label>
+              <input type="checkbox" name="choice24" id="cb24" /><label for="cb24">Irregular Sugar Level</label>
+              <input type="checkbox" name="choice25" id="cb25" /><label for="cb25">Cough</label>
+              <input type="checkbox" name="choice26" id="cb26" /><label for="cb26">High Fever</label>
+              <input type="checkbox" name="choice27" id="cb27" /><label for="cb27">Sunken Eyes</label>
+              <input type="checkbox" name="choice28" id="cb28" /><label for="cb28">Breathlessness</label>
+              <input type="checkbox" name="choice29" id="cb29" /><label for="cb29">Sweating</label>
+              <input type="checkbox" name="choice30" id="cb30" /><label for="cb30">Dehydration</label>
+              <input type="checkbox" name="choice31" id="cb31" /><label for="cb31">Indigestion</label>
+              <input type="checkbox" name="choice32" id="cb32" /><label for="cb32">Headache</label>
+              <input type="checkbox" name="choice33" id="cb33" /><label for="cb33">Yellowish Skin</label>
+              <input type="checkbox" name="choice34" id="cb34" /><label for="cb34">Dark Urine</label>
+              <input type="checkbox" name="choice35" id="cb35" /><label for="cb35">nausea</label>
+              <input type="checkbox" name="choice36" id="cb36" /><label for="cb36">loss_of_appetite</label>
+              <input type="checkbox" name="choice37" id="cb37" /><label for="cb37">pain_behind_the_eyes</label>
+              <input type="checkbox" name="choice38" id="cb38" /><label for="cb38">back_pain</label>
+              <input type="checkbox" name="choice39" id="cb39" /><label for="cb39">constipation</label>
+              <input type="checkbox" name="choice40" id="cb40" /><label for="cb40">abdominal_pain</label>
+              <input type="checkbox" name="choice41" id="cb41" /><label for="cb41">diarrhoea</label>
+              <input type="checkbox" name="choice42" id="cb42" /><label for="cb42">mild_fever</label>
+              <input type="checkbox" name="choice43" id="cb43" /><label for="cb43">yellow_urine</label>
+              <input type="checkbox" name="choice44" id="cb44" /><label for="cb44">yellowing_of_eyes</label>
+              <input type="checkbox" name="choice45" id="cb45" /><label for="cb45">acute_liver_failure</label>
+              <input type="checkbox" name="choice46" id="cb46" /><label for="cb46">fluid_overload</label>
+              <input type="checkbox" name="choice47" id="cb47" /><label for="cb47">swelling_of_stomach</label>
+              <input type="checkbox" name="choice48" id="cb48" /><label for="cb48">swelled_lymph_nodes</label>
+              <input type="checkbox" name="choice49" id="cb49" /><label for="cb49">malaise</label>
+              <input type="checkbox" name="choice50" id="cb50" /><label for="cb50">blurred_and_distorted_vision</label>
+              <input type="checkbox" name="choice51" id="cb51" /><label for="cb51">phlegm</label>
+              <input type="checkbox" name="choice52" id="cb52" /><label for="cb52">throat_irritation</label>
+              <input type="checkbox" name="choice53" id="cb53" /><label for="cb53">redness_of_eyes</label>
+              <input type="checkbox" name="choice54" id="cb54" /><label for="cb54">sinus_pressure</label>
+              <input type="checkbox" name="choice55" id="cb55" /><label for="cb55">Runny Nose</label>
+              <input type="checkbox" name="choice56" id="cb56" /><label for="cb56">congestion</label>
+              <input type="checkbox" name="choice57" id="cb57" /><label for="cb57">Chest Pain</label>
+              <input type="checkbox" name="choice58" id="cb58" /><label for="cb58">Weakness In Limbs</label>
+              <input type="checkbox" name="choice59" id="cb59" /><label for="cb59">fast_heart_rate</label>
+              <input type="checkbox" name="choice60" id="cb60" /><label for="cb60">pain_during_bowel_movements</label>
+              <input type="checkbox" name="choice61" id="cb61" /><label for="cb61">pain_in_anal_region</label>
+              <input type="checkbox" name="choice62" id="cb62" /><label for="cb62">bloody_stool</label>
+              <input type="checkbox" name="choice63" id="cb63" /><label for="cb63">irritation_in_anus</label>
+              <input type="checkbox" name="choice64" id="cb64" /><label for="cb64">neck_pain</label>
+              <input type="checkbox" name="choice65" id="cb65" /><label for="cb65">dizziness</label>
+              <input type="checkbox" name="choice66" id="cb66" /><label for="cb66">cramps</label>
+              <input type="checkbox" name="choice67" id="cb67" /><label for="cb67">bruising</label>
+              <input type="checkbox" name="choice68" id="cb68" /><label for="cb68">obesity</label>
+              <input type="checkbox" name="choice69" id="cb69" /><label for="cb69">swollen_legs</label>
+              <input type="checkbox" name="choice70" id="cb70" /><label for="cb70">swollen_blood_vessels</label>
+              <input type="checkbox" name="choice71" id="cb71" /><label for="cb71">puffy_face_and_eyes</label>
+              <input type="checkbox" name="choice72" id="cb72" /><label for="cb72">enlarged_thyroid</label>
+              <input type="checkbox" name="choice73" id="cb73" /><label for="cb73">brittle_nails</label>
+              <input type="checkbox" name="choice74" id="cb74" /><label for="cb74">swollen_extremeties</label>
+              <input type="checkbox" name="choice75" id="cb75" /><label for="cb75">excessive_hunger</label>
+              <input type="checkbox" name="choice76" id="cb76" /><label for="cb76">extra_marital_contacts</label>
+              <input type="checkbox" name="choice77" id="cb77" /><label for="cb77">drying_and_tingling_lips</label>
+              <input type="checkbox" name="choice78" id="cb78" /><label for="cb78">slurred_speech</label>
+              <input type="checkbox" name="choice79" id="cb79" /><label for="cb79">knee_pain</label>
+              <input type="checkbox" name="choice80" id="cb80" /><label for="cb80">hip_joint_pain</label>
+              <input type="checkbox" name="choice81" id="cb81" /><label for="cb81">muscle_weakness</label>
+              <input type="checkbox" name="choice82" id="cb82" /><label for="cb82">stiff_neck</label>
+              <input type="checkbox" name="choice83" id="cb83" /><label for="cb83">swelling_joints</label>
+              <input type="checkbox" name="choice84" id="cb84" /><label for="cb84">movement_stiffness</label>
+              <input type="checkbox" name="choice85" id="cb85" /><label for="cb85">spinning_movements</label>
+              <input type="checkbox" name="choice86" id="cb86" /><label for="cb86">loss_of_balance</label>
+              <input type="checkbox" name="choice87" id="cb87" /><label for="cb87">unsteadiness</label>
+              <input type="checkbox" name="choice88" id="cb88" /><label for="cb88">weakness_of_one_body_side</label>
+              <input type="checkbox" name="choice89" id="cb89" /><label for="cb89">loss_of_smell</label>
+              <input type="checkbox" name="choice90" id="cb90" /><label for="cb90">bladder_discomfort</label>
+              <input type="checkbox" name="choice91" id="cb91" /><label for="cb91">foul_smell_of urine</label>
+              <input type="checkbox" name="choice92" id="cb92" /><label for="cb92">continuous_feel_of_urine</label>
+              <input type="checkbox" name="choice93" id="cb93" /><label for="cb93">passage_of_gases</label>
+              <input type="checkbox" name="choice94" id="cb94" /><label for="cb94">internal_itching</label>
+              <input type="checkbox" name="choice95" id="cb95" /><label for="cb95">toxic_look_(typhos)</label>
+              <input type="checkbox" name="choice96" id="cb96" /><label for="cb96">depression</label>
+              <input type="checkbox" name="choice97" id="cb97" /><label for="cb97">irritability</label>
+              <input type="checkbox" name="choice98" id="cb98" /><label for="cb98">muscle_pain</label>
+              <input type="checkbox" name="choice99" id="cb99" /><label for="cb99">altered_sensorium</label>
+              <input type="checkbox" name="choice100" id="cb100" /><label for="cb100">red_spots_over_body</label>
+              <input type="checkbox" name="choice101" id="cb101" /><label for="cb101">belly_pain</label>
+              <input type="checkbox" name="choice102" id="cb102" /><label for="cb102">abnormal_menstruation</label>
+              <input type="checkbox" name="choice103" id="cb103" /><label for="cb103">dischromic _patches</label>
+              <input type="checkbox" name="choice104" id="cb104" /><label for="cb104">watering_from_eyes</label>
+              <input type="checkbox" name="choice105" id="cb105" /><label for="cb105">increased_appetite</label>
+              <input type="checkbox" name="choice106" id="cb106" /><label for="cb106">polyuria</label>
+              <input type="checkbox" name="choice107" id="cb107" /><label for="cb107">family_history</label>
+              <input type="checkbox" name="choice108" id="cb108" /><label for="cb108">mucoid_sputum</label>
+              <input type="checkbox" name="choice109" id="cb109" /><label for="cb109">rusty_sputum</label>
+              <input type="checkbox" name="choice110" id="cb110" /><label for="cb110">lack_of_concentration</label>
+              <input type="checkbox" name="choice111" id="cb111" /><label for="cb111">visual_disturbances</label>
+              <input type="checkbox" name="choice112" id="cb112" /><label for="cb112">receiving_blood_transfusion</label>
+              <input type="checkbox" name="choice113" id="cb113" /><label for="cb113">receiving_unsterile_injections</label>
+              <input type="checkbox" name="choice114" id="cb114" /><label for="cb114">coma</label>
+              <input type="checkbox" name="choice115" id="cb115" /><label for="cb115">Stomach_Bleeding</label>
+              <input type="checkbox" name="choice116" id="cb116" /><label for="cb116">Distention_Of_Abdomen</label>
+              <input type="checkbox" name="choice117" id="cb117" /><label for="cb117">History_Of_Alcohol_Consumption</label>
+              <input type="checkbox" name="choice118" id="cb118" /><label for="cb118">Fluid_Overload</label>
+              <input type="checkbox" name="choice119" id="cb119" /><label for="cb119">Blood_In_Sputum</label>
+              <input type="checkbox" name="choice120" id="cb120" /><label for="cb120">Prominent_Veins_On_Calf</label>
+              <input type="checkbox" name="choice121" id="cb121" /><label for="cb121">Palpitations</label>
+              <input type="checkbox" name="choice122" id="cb122" /><label for="cb122">Painful_Walking</label>
+              <input type="checkbox" name="choice123" id="cb123" /><label for="cb123">Pus_Filled_Pimples</label>
+              <input type="checkbox" name="choice124" id="cb124" /><label for="cb124">Blackheads</label>
+              <input type="checkbox" name="choice125" id="cb125" /><label for="cb125">Scurring</label>
+              <input type="checkbox" name="choice126" id="cb126" /><label for="cb126">Skin_Peeling</label>
+              <input type="checkbox" name="choice127" id="cb127" /><label for="cb127">Silver_Like_Dusting</label>
+              <input type="checkbox" name="choice128" id="cb128" /><label for="cb128">Small_Dents_In_Nails</label>
+              <input type="checkbox" name="choice129" id="cb129" /><label for="cb129">Inflammatory_Nails</label>
+              <input type="checkbox" name="choice130" id="cb130" /><label for="cb130">Blister</label>
+              <input type="checkbox" name="choice131" id="cb131" /><label for="cb131">Red_Sore_Around_Nose</label>
+              <input type="checkbox" name="choice132" id="cb132" /><label for="cb132">Yellow Crust Ooze</label>
+            </div>
+          </form>
         </div>
-        <div class="menu-parent">
-          <div class="menu">
-            <div class="menu-2">
-              <div class="menu-2-child"></div>
-              <div class="menu-2-item"></div>
-              <div class="menu-2-inner"></div>
-              <div class="angel-falls-venezuela-container">
-                <p class="angel-falls-venezuela">Itching</p>
-              </div>
-              <div class="niagara-falls-container">
-                <p class="angel-falls-venezuela">Skin Rash</p>
-              </div>
-              <div class="kaieteur-falls-guyana-container">
-                <p class="angel-falls-venezuela">Nodal Skin Eruptions</p>
-              </div>
-              <div class="iguazu-falls-argentina-container">
-                <p class="angel-falls-venezuela">Continuous Sneezing</p>
-              </div>
-              <div class="victoria-falls-zambia-container">
-                <p class="angel-falls-venezuela">Ulcers On Tongue</p>
-              </div>
-              <div class="menu-2-child1"></div>
-              <div class="menu-2-child2"></div>
-            </div>
-            <div class="menu-21">
-              <div class="menu-2-child"></div>
-              <div class="menu-2-child4"></div>
-              <div class="menu-2-child5"></div>
-              <div class="angel-falls-venezuela-container">
-                <p class="angel-falls-venezuela">Weight Gain</p>
-              </div>
-              <div class="niagara-falls-container">
-                <p class="angel-falls-venezuela">Mood Swings</p>
-              </div>
-              <div class="kaieteur-falls-guyana-container">
-                <p class="angel-falls-venezuela">Spotting Urination</p>
-              </div>
-              <div class="iguazu-falls-argentina-container">
-                <p class="angel-falls-venezuela">Sunken Eyes</p>
-              </div>
-              <div class="victoria-falls-zambia-container">
-                <p class="angel-falls-venezuela">Patches In Throat</p>
-              </div>
-              <div class="menu-2-child1"></div>
-              <div class="menu-2-child7"></div>
-            </div>
-            <div class="menu-1">
-              <div class="menu-2-child"></div>
-              <div class="menu-1-item"></div>
-              <div class="menu-1-inner"></div>
-              <div class="menu-1-child1"></div>
-              <div class="angel-falls-venezuela-container">
-                <p class="angel-falls-venezuela">Weakness In Limbs</p>
-              </div>
-              <div class="niagara-falls-container2">
-                <p class="angel-falls-venezuela">Neck Pain</p>
-              </div>
-              <div class="kaieteur-falls-guyana-container">
-                <p class="angel-falls-venezuela">Yellowish Skin</p>
-              </div>
-              <div class="iguazu-falls-argentina-container">
-                <p class="angel-falls-venezuela">Loss Of Appetite</p>
-              </div>
-              <div class="victoria-falls-zambia-container">
-                <p class="angel-falls-venezuela">Abdominal Pain</p>
-              </div>
-              <div class="menu-2-child1"></div>
-              <div class="menu-1-child3"></div>
-            </div>
-          </div>
-          <div class="selected">
-            <div class="selected-child"></div>
-            <div class="selected-4">
-              <div class="selected-4-child"></div>
-              <div class="waterfalls">High Fever</div>
-              <div class="x">x</div>
-            </div>
-            <div class="selected-3">
-              <div class="selected-4-child"></div>
-              <div class="waterfalls">Vomiting</div>
-              <div class="x">x</div>
-            </div>
-            <div class="selected-2">
-              <div class="selected-4-child"></div>
-              <div class="waterfalls">Anxiety</div>
-              <div class="x">x</div>
-            </div>
-            <div class="selected-1">
-              <div class="selected-4-child"></div>
-              <div class="waterfalls">Back Pain</div>
-              <div class="x">x</div>
-            </div>
-            <div class="div10">&gt;</div>
-          </div>
-        </div>
-        <!-- <div class="check-box"> -->
-          <!-- <img class="checkbox-icon" alt="" src="./images/checkbox.svg" /> -->
-          <!-- <div class="lorem-ipsum-dolor-container">
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span
-            ><span class="gravida-eget-ultricies">Gravida eget ultricies</span
-            ><span> pharetra scelerisque duis cursus.</span>
-          </div> -->
-        <!-- </div> -->
-        <a class="button3" href="./step-3.html" id="button"
-          ><div class="proceed-to-next">Proceed to next step ...</div></a
-        >
+        <div>
+        <button type="submit" class="button3" id="button"
+          ><div class="proceed-to-next">Proceed to next step ...</div>
+        </button>
+        
       </div>
     </div>
-
-    <script>
-      var button = document.getElementById("button");
-      if (button) {
-        button.addEventListener("click", function (e) {
+      <script>
+        let checkboxStates = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+        let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox, index) => {
+          checkbox.addEventListener('change', () => {
+            checkboxStates[index] = checkbox.checked ? 1 : 0;
+          });
+        });
+  
+        let submitButton = document.getElementById("button");
+        submitButton.addEventListener('click', (event) => {
+          event.preventDefault(); // prevent form submission
+          console.log(checkboxStates);
+          alert(checkboxStates);
           window.location.href = "./step-3.html";
         });
-      }
       </script>
   </body>
 </html>
