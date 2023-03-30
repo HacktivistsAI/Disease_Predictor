@@ -7,13 +7,9 @@ RUN pip install --upgrade pip
 
 #set work directory early so remaining paths can be relative
 
-# 2
-COPY /server .
-WORKDIR /server/src
-
-COPY requirements.txt .
-
 COPY . .
+WORKDIR /server/main
+
 
 # 3 
 RUN pip install -r requirements.txt
