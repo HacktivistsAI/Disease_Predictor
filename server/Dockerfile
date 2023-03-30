@@ -8,10 +8,10 @@ RUN pip install --upgrade pip
 #set work directory early so remaining paths can be relative
 
 # 2
-COPY /server
+COPY /server .
 WORKDIR /server/src
 
-COPY requirements.txt
+COPY requirements.txt .
 
 COPY . .
 
