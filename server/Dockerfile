@@ -5,10 +5,11 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /app
 
+COPY . /app
+
 RUN apt update
 
-RUN cp requirements.txt /tmp
-RUN cd /tmp && pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 
 # 4
