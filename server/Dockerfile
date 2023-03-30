@@ -1,19 +1,15 @@
 # 1 
 FROM python:3.7
 
+ENV PYTHONUNBUFFERED 1
 
-# run this before copying requirements for cache efficiency
-RUN pip install --upgrade pip
+WORKDIR /app
 
-#set work directory early so remaining paths can be relative
+RUN apt update
 
-COPY . .
-WORKDIR /server/src
+RUN cp requirements.txt /tmp
+RUN cd /tmp && pip install -r requirements.txt
 
-RUN ls
-
-# 3 
-RUN pip install -r requirements.txt
 
 # 4
 ENV PORT 5000
