@@ -8,7 +8,7 @@ RUN pip install --upgrade pip
 #set work directory early so remaining paths can be relative
 
 COPY . .
-WORKDIR /server/main
+WORKDIR /server/src
 
 
 # 3 
