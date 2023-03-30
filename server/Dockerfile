@@ -1,7 +1,7 @@
 # 1 
 FROM python:3.7
 
-echo $(pwd)
+RUN echo $(pwd)
 
 # 2
 RUN pip install -r requirements.txt
