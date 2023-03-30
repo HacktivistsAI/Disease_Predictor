@@ -10,6 +10,7 @@ RUN pip install --upgrade pip
 COPY . .
 WORKDIR /server/src
 
+RUN ls
 
 # 3 
 RUN pip install -r requirements.txt
