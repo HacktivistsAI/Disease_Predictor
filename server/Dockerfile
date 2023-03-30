@@ -11,6 +11,8 @@ RUN apt update
 
 RUN pip install -r requirements.txt
 
+RUN pip install gunicorn
+
 
 # 4
 ENV PORT 5000
