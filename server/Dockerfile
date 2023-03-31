@@ -14,6 +14,10 @@ RUN pip install -r requirements.txt
 RUN pip install gunicorn
 
 
+EXPOSE 80
+
+EXPOSE 443
+
 # 4
 ENV PORT 5000
 
