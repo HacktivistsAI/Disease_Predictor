@@ -1,4 +1,6 @@
 requests==2.24.0
-Flask==1.1.2
+Flask>=2.2.2
 Flask-Cors==3.0.9
 gunicorn
+pandas
+scikit-learn
