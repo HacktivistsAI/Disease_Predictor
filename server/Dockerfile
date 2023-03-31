@@ -21,5 +21,7 @@ EXPOSE 443
 # 4
 ENV PORT 5000
 
+EXPOSE 5000
+
 # 5
 CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 main:app
